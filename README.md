@@ -12,3 +12,8 @@ git commit -m "add test1.txt for testing"
 echo "This is test2" > test2.txt
 git add test2.txt
 git commit -m "create test2.txt for another commit"
+git commit -m "set up initial project files"
+git commit -m "add placeholder documentation"
+git commit -m "update readme with dummy text"
+git commit -m "add test data file"
+git commit -m "clean up fake config values"
