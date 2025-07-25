@@ -17,3 +17,8 @@ git commit -m "add placeholder documentation"
 git commit -m "update readme with dummy text"
 git commit -m "add test data file"
 git commit -m "clean up fake config values"
+for i in {1..5}; do
+  echo "Test commit $i" >> testfile.txt
+  git add testfile.txt
+  git commit -m "test commit $i"
+done
