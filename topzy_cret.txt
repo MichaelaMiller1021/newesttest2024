@@ -1,1 +1,11 @@
 This is where all my top secret codes go!
+import random, time, os
+
+stars = ["✨", "★", "✦", "✧"]
+width = 40
+
+for _ in range(50):  # number of frames
+    line = "".join(random.choice(stars + [" "]*5) for _ in range(width))
+    print(line)
+    time.sleep(0.1)
+    os.system("clear")
